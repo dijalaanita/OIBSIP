@@ -189,16 +189,70 @@ clear: both;
 padding: 0 10px;
  }
 
- .icons{
-     width: 4rem;
-     flex-direction: row;
-       justify-content: space-evenly;
-       align-items: center;
-       align-content: center;
+ .express-img{
+ width: 20rem;
+ margin-left: 315px;
+ }
+  .express-text, .express-head{
+  margin-right: 315px;
+  margin-left: 0;
+
+  }
+  .express-col1{
+  margin-bottom:10px;
+  float: right;
+
+  }
+  .express-col{
+  float: left;
+    width: 15rem;
+   margin-bottom: 10px;
+  }
+
+ .icons, .icon{
+ width: 7rem;
+display: flex;
+flex-direction: row;
+margin-left: 10px;
+margin-top:0px;
+ }
+ .icon{
+ border: 1px solid rgb(240,240,240);
+ background-color: rgb(240,240,240);
+ border-radius: 25%;
+
  }
  .icon:hover{
  opacity:0.8;
  }
+.urls a{
+text-decoration: underline;
+color: rgb(20,115,89);
+}
+
+button, .express-btn{
+width:165px;
+height:40px;
+cursor: pointer;
+color: white;
+font-size: 17px;
+border-radius: 2rem;
+border: none;
+position: relative;
+background: rgb(20,115,89);
+transition: 0.1s;
+text-decoration: none;
+margin: 50px;
+}
+
+button:hover{
+opacity: 0.8;
+}
+
+.express-btn{
+margin-top: -10px;
+margin-left: -5px;
+}
 
 .globe-section{
 background-color: rgb(251,241,241);
