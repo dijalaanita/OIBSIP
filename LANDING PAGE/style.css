@@ -20,11 +20,6 @@ font-family: "Josefin Sans", serif;
 button{
 font-family:'Josefin Sans', sans-serif;
 }
-.globe{
-font-family: 'PT Serif', serif;
-font-weight: 700;
-  font-style: normal;
-}
 
 * {
     box-sizing: border-box;
@@ -169,7 +164,7 @@ margin-left: 315px;
 
  .safe-img{
  width: 20rem;
- margin-top: -200px;
+ margin-top: -250px;
  margin-left: 100px;
  }
  .safe-col1{
@@ -225,7 +220,7 @@ margin-top:0px;
  .icon:hover{
  opacity:0.8;
  }
-.urls a{
+.url2, .urls, .url1 a{
 text-decoration: underline;
 color: rgb(20,115,89);
 }
@@ -250,110 +245,43 @@ opacity: 0.8;
 }
 
 .express-btn{
-margin-top: -10px;
+margin-top: -5px;
 margin-left: -5px;
 }
-
-.globe-section{
-background-color: rgb(251,241,241);
-}
-/*
-.lang-menu {
-	display: block;
-	width: 200px;
-	padding: .375rem 2.25rem .375rem .75rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	color: #212529;
-	background-repeat: no-repeat;
-	background-position: right .75rem center;
-	border: none;
-	-webkit-appearance: none;
-	appearance: none;
-}
-.lang-menu {
-    width: 100px;
-    text-align: right;
-    font-weight: bold;
-    margin-top: 25px;
-    position: relative;
-}
-.lang-menu .selected-lang {
-    display: flex;   
-    justify-content: space-between;
-    line-height: 2;
-    cursor: pointer;
-}
-.lang-menu .selected-lang:before {
-    content: '';
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.last-section{
+display: flex;
+flex-direction: row;
+width: 50%;
+margin-left: 240px;
+margin-top: 100px;
 }
 
-.lang-menu ul {
-    margin: 0;
-    padding: 0;
-    display: none;
-    background-color: #fff;
-    border: 1px solid #f8f8f8;
-    position: absolute;
-    top: 45px;
-    right: 0px;
-    width: 125px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+.last-img{
+width: 20rem;
 }
-
-
-.lang-menu ul li {
-    list-style: none;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+.url1, .url2{
+text-align: center;
+padding: 80px;
 }
-
-.lang-menu ul li a {
-    text-decoration: none;
-    width: 125px;
-    padding: 5px 10px;
-    display: block;
+.globe-h3{
+font-family: 'PT Serif', serif;
+font-weight: 700;
+  font-style: normal;
 }
-
-.lang-menu ul li:hover {
-    background-color: #f2f2f2;
+.globe-div,.globe-section,.globe-text{
+background-color: rgb(251,243,243);
 }
-
-.lang-menu ul li a:before {
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    margin-right: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.globe-img{
+width: 50rem;
+margin-left: 150px;
 }
-
-.de:before {
-    background-image: url(https://www.countryflags.io/de/flat/32.png);
+.globe-div > h2{
+text-align: center;
 }
-
-.en:before {
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
+.globe-text{
+float:right;
+margin-right: 300px;
 }
-.fr:before {
-    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+.url2{
+padding-bottom: 80px;
 }
-
-.ar:before {
-    background-image: url(https://www.countryflags.io/ae/flat/32.png);
-}
-
-
-.lang-menu:hover ul {
-    display: block;
-}*/
