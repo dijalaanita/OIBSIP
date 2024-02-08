@@ -65,7 +65,9 @@
 
 /*         } */
 
-
+    .lang-menu li{
+        padding-left: 1rem;
+    }
         ul li {
           list-style: none;
           display: inline-block;
@@ -76,7 +78,7 @@
 /*  trying to target only the ul .lang-menu section*/
         nav .lang-menu
         {
-            padding: 0rem 10rem 0rem 0rem;
+            padding: 0rem 4rem 0rem 0rem;
         }
         nav .dropdown
         {
